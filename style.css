@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+}
+p {
+  color: rgb(56, 56, 56);
+}
+
+/* Header section styles starts here */
+/* Navbar here */
+nav {
+  padding: 25px 35px;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: space-between;
+}
+nav h2 {
+  font-size: 40px;
+}
+nav a {
+  padding: 12px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 3px solid brown;
+  border-radius: 10px;
+}
+
+/* Banner here */
+.banner {
+  text-align: center;
+  height: 550px;
+  background-image: url("assets/Hero-bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner-img {
+  height: 230px;
+  width: 230px;
+}
+section h1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.banner a {
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 9px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+.why-web-dev {
+  width: 80%;
+  margin: 30px auto;
+  padding: 40px 10px;
+  background-color: rgb(230, 230, 219);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+}
+.why-web-dev > p {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.development-reason {
+  background-color: white;
+  width: 70%;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.development-reason > div {
+  height: 150px;
+  width: 50%;
+  padding: 30px;
+}
+.development-reason > img {
+  height: 100%;
+}
+.development-reason > div > h2,
+.development-reason > div > p {
+  margin: 12px 0;
+}
+.reason-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+/* Support section */
+.support {
+  background-image: url("assets/handshake.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+  width: 80%;
+  border-radius: 20px;
+  margin: 30px auto;
+}
+.support > h2 {
+  font-size: 32px;
+}
+.support > p {
+  padding: 30px;
+  color: whitesmoke;
+}
+.support > div input {
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#feedback-input {
+  width: 400px;
+}
+
+/* My inspiration section here */
+.my-inspiration {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+.my-inspiration > p {
+  width: 60%;
+  margin: 40px auto;
+}
+.my-inspiration > iframe {
+  border-radius: 20px;
+}
+
+/* Current target here */
+.current-target {
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 0;
+  text-align: center;
+}
+.current-target > p {
+  width: 60%;
+  margin: 30px auto;
+}
+.languages {
+  display: flex;
+  justify-content: space-around;
+}
+.p-language {
+  width: 25%;
+  text-align: start;
+  padding: 20px;
+  border-radius: 16px;
+}
+.p-language > h2,
+.p-language > p,
+.p-language > a {
+  margin: 10px 0;
+}
+
+
+/* Footer here */
+footer {
+  padding: 15px 80px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer > p {
+  font-size: 20px;
+  font-weight: bolder;
+}
